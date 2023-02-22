@@ -1,0 +1,7 @@
+<div class="navbar border-bottom p-3 bg-secondary bg-opacity-10">
+  <h1>Articles</h1>
+  <%= link_to 'Create new article', new_article_path %>
+</div>
+<div class="container col-6 pt-3">
+<%= render 'form', article: @article %>
+</div>
